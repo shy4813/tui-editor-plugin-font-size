@@ -31,7 +31,7 @@ function createToolbarItemOption(dropDown: HTMLDivElement) {
   return {
     name: "font-size",
     text: "F",
-    tooltip: "Font Size",
+    tooltip: "글자 크기",
     style: { background: "none", fontSize: "20px" },
     popup: {
       body: dropDown,
